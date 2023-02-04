@@ -1,5 +1,8 @@
+import django
+django.setup()
+
 from django.test import TestCase
-from .forms import EncryptionForm, DecryptionForm
+from .crypto.forms import EncryptionForm, DecryptionForm
 
 class EncryptionDecryptionTestCase(TestCase):
 
