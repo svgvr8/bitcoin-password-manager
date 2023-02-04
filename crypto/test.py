@@ -1,6 +1,5 @@
 import django
 django.setup()
-
 from django.test import TestCase
 from crypto.forms import EncryptionForm, DecryptionForm
 

@@ -1,6 +1,11 @@
 #!/usr/bin/env python
+import django
+django.setup()
 import os
 import sys
+from django.conf import settings
+
+settings.configure(default_settings=__name__)
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "crypto.settings")
