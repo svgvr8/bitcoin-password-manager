@@ -6,7 +6,6 @@ This is a full-stack web application that allows users to encrypt and decrypt te
 
 ## Technology Stack
 
-
 - Python 3
 - Django
 - HTML/CSS
@@ -44,3 +43,28 @@ $ cd django-cryptography
 $ pip install -r requirements.txt
 
 ```
+
+4. Run migrations
+
+```python
+$ python manage.py migrate
+
+```
+
+5. Run the development server
+
+```python
+$ python manage.py runserver
+
+```
+
+6. Visit http://localhost:8000/encrypt/ in your web browser to start using the application
+## Deployment
+This application can be deployed to a production server in a similar way as any other Django application.
+## Contributing
+
+If you'd like to contribute to this project, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
+
+## License
+
+This project is licensed under the MIT License.
